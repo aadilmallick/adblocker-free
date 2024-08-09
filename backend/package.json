@@ -10,5 +10,8 @@
   },
   "scripts": {
     "start": "bun run index.ts"
+  },
+  "dependencies": {
+    "@2022amallick/print-colors": "^1.0.4"
   }
 }

@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "install-all": "npm i && cd backend && bun install"
+    "install-all": "npm i && cd backend && bun install",
+    "create-json": "cd backend && bun start && cd .. && mv backend/easyfilter.json ./"
   },
   "dependencies": {
     "react": "^18.2.0",
